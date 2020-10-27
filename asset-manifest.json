@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/color-game/static/css/main.ab49af2e.chunk.css",
+    "main.js": "/color-game/static/js/main.d4a6c5f8.chunk.js",
+    "main.js.map": "/color-game/static/js/main.d4a6c5f8.chunk.js.map",
+    "runtime-main.js": "/color-game/static/js/runtime-main.2c9fb6a2.js",
+    "runtime-main.js.map": "/color-game/static/js/runtime-main.2c9fb6a2.js.map",
+    "static/js/2.62b88042.chunk.js": "/color-game/static/js/2.62b88042.chunk.js",
+    "static/js/2.62b88042.chunk.js.map": "/color-game/static/js/2.62b88042.chunk.js.map",
+    "static/js/3.192edd21.chunk.js": "/color-game/static/js/3.192edd21.chunk.js",
+    "static/js/3.192edd21.chunk.js.map": "/color-game/static/js/3.192edd21.chunk.js.map",
+    "index.html": "/color-game/index.html",
+    "static/css/main.ab49af2e.chunk.css.map": "/color-game/static/css/main.ab49af2e.chunk.css.map",
+    "static/js/2.62b88042.chunk.js.LICENSE.txt": "/color-game/static/js/2.62b88042.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c9fb6a2.js",
+    "static/js/2.62b88042.chunk.js",
+    "static/css/main.ab49af2e.chunk.css",
+    "static/js/main.d4a6c5f8.chunk.js"
+  ]
+}
