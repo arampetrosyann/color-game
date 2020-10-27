@@ -1,0 +1,14 @@
+.gameBox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btnBox {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
