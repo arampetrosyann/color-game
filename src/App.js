@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useCallback } from "react";
+import "./styles/App.css";
+import { PlayBox, WinBox } from "./components";
 
 function App() {
+  const [steps, setSteps] = useState(0);
+  const [isFinished, setIsFinished] = useState(false);
+
+  const handlePlayAgain = useCallback(() => {
+    setIsFinished(false);
+
+    setSteps(0);
+  }, []);
+
+  const handleFinish = useCallback(() => {
+    setIsFinished(true);
+  }, []);
+
+  const handleStep = useCallback(() => {
+    setSteps((prevStep) => prevStep + 1);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {isFinished ? (
+        <WinBox steps={steps} onClick={handlePlayAgain} />
+      ) : (
+        <PlayBox steps={steps} addStep={handleStep} finish={handleFinish} />
+      )}
     </div>
   );
 }
