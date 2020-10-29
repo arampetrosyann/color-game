@@ -71,7 +71,7 @@ export default function Game({ addStep, handleFinish }) {
       addStep();
     }
 
-    isGameFinished(colors, maxCount, handleFinish);
+    isGameFinished(colorsClone, maxCount, handleFinish);
   };
 
   const handleUndo = () => {
