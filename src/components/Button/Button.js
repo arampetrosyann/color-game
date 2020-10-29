@@ -4,11 +4,12 @@ import PropTypes from "prop-types";
 
 export default function Button({ style, backColor, onClick }) {
   return (
-    <button
+    <input
+      type="button"
       className={styles.playBtn}
       style={{ ...style, backgroundColor: backColor }}
       onClick={onClick}
-    ></button>
+    />
   );
 }
 
